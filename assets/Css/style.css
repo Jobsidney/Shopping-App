@@ -1,0 +1,129 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    opacity: 0.7;
+}
+nav>ul>li,#iconNav>ul>li{
+    padding: 0rem 2rem 1rem 0rem;
+    font-size: x-large;
+    font-weight: 800;
+}
+#navigation{
+    margin: 1rem 3rem 0rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#iconNav>ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.avator>img{
+    width: 40px;
+    height: 40px;
+
+}
+.ards{
+    width: fit-content;
+}
+.ards>img{
+    width: 400px;
+    border-radius:10px;
+}
+.small-images>img{
+    width: 90px;
+    margin: 3rem 0.5rem;
+    border: 1px solid  orange;
+    border-radius: 8px;
+}
+#advertSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20vh;
+}
+#sellsDecriptiom{
+    width: 500px;
+    margin: 40px 0px 0px 80px;
+}
+#sellsDecriptiom>.title{
+    font-weight: 900;
+    font-size: large;
+    color: #ec7637;
+    opacity: 0.6;
+}
+#sellsDecriptiom>.descr{
+    font-weight: bolder;
+    font-size: 35px
+}
+#sellsDecriptiom>p{
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 0.7;
+}
+#cost>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#cost>div>h3{
+    margin-right: 25px;
+    font-size: xx-large;
+}
+#cost>div>div>h4{
+    background-color:hsl(223, 60%, 89%);
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #ec7637;
+    margin-top: 10px;
+
+}
+#cost>p{
+    opacity: 0.4;
+    font-weight: bold;
+    font-size:x-large
+}
+.add-To-Cart{
+    background-color:#ec7637;
+    width: 280px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 6px;
+    color: white;
+    font-size:18px;
+    text-align: center;
+    padding-top: 10px;
+}
+.items-shopping{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.addItems{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+    background-color:hsl(223, 60%, 89%);
+    width: 180px;
+    align-items: center;
+    padding: 0px 15px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.addItems>i{
+    color: rgb(255, 165, 0);
+}
+.addItems>span{
+    font-weight: 900;
+}
